@@ -1,0 +1,102 @@
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+} */
+
+/* body {
+  height: 100vh;
+  margin: 0;
+
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,179,104,1) 0%, rgba(0,212,255,1) 76%);
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: var(--y);
+  width: var(--x);
+  transition: All 1s;
+} */
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: serif;
+  color: white;
+}
+
+.card {
+  background: radial-gradient(
+    circle at var(--x) var(--y),
+    #5de7ff 0%,
+    #0092ec 100%
+  );
+  border-radius: 15px;
+  padding: 1em 2em;
+  width: 40%;
+}
+
+.card h1,
+.card p {
+  pointer-events: none;
+}
+
+/* .clock {
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: relative;
+}
+
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+}
+
+.clock .number1 {
+  --rotation: 30deg;
+}
+.clock .number2 {
+  --rotation: 60deg;
+}
+.clock .number3 {
+  --rotation: 90deg;
+}
+.clock .number4 {
+  --rotation: 120deg;
+}
+.clock .number5 {
+  --rotation: 1500deg;
+}
+.clock .number6 {
+  --rotation: 180deg;
+}
+.clock .number7 {
+  --rotation: 210deg;
+}
+.clock .number8 {
+  --rotation: 240deg;
+}
+.clock .number9 {
+  --rotation: 270deg;
+}
+.clock .number10 {
+  --rotation: 300deg;
+}
+.clock .number11 {
+  --rotation: 330deg;
+} */
